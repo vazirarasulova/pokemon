@@ -1,3 +1,26 @@
+// var weaknesses = ["Fire", "Ice", "Flying", "Psychic", "Water", "Ground", "Rock", "Electric"];
+// var select = weaknesses.filter((value, index, arr) => {
+//   return arr.indexOf(value) === index;
+// });
+ 
+
+// var weaknesses = ["Fire", "Ice", "Flying", "Psychic", "Water", "Ground", "Rock", "Electric"];
+// var filterBox = document.querySelectorAll("value");
+
+// document.querySelector("form-select").addEventListener("click", (event)=>{
+//   if(event.target.newText !== "option"); 
+//   return true;
+
+  
+// });
+// console.log(weaknesses);
+
+
+// const search = document.getElementById("select");
+
+// search.addEventListener("")
+
+
 var elList = document.querySelector(".pokemon__list");
 
 for (var pokemon of pokemons){
