@@ -1,3 +1,8 @@
+.header__box{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .pokemon__list{
   width: 1200px;
   display: flex;

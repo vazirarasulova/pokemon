@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,48 @@
   <link rel="stylesheet" href="./css/main.css">
   <title>Document</title>
 </head>
+
 <body>
-<section class="pokemon">
 
-    <div class="pokemon__list">
-    
+  <header class="header  my-3 ">
+    <div class="header__box d-flex justify-content-between align-items-center">
+
+      <a href="./index.html" class="header__link ">
+        <img src="./images/logo.svg" alt="pokemon logo" class="header__img" width="200" height="100"></a>
+
+      <form class="form  w-50 d-flex justify-content-between ms-5 align-items-center" action="">
+
+        <label class=" form-label mt-2">
+          <input type="search" class=" form-control position-relative" placeholder="Search for a name">
+        </label>
+
+        <select class=" form-select w-50">
+          <option selected>Filter by weaknesses</option>
+          <option value="1">Fire</option>
+          <option value="2">Ice</option>
+          <option value="3">Flying</option>
+          <option value="4">Psychic</option>
+          <option value="6">Water</option>
+          <option value="7">Ground</option>
+          <option value="8">Rock</option>
+          <option value="9">Electric</option>
+        </select>
+
+      </form>
+
     </div>
+  </header>
 
-</section>
+
+  <section class="pokemon">
+    <ul class="pokemon__list">
+
+    </ul>
+  </section>
 
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/pokemon.js"></script>
   <script src="./js/main.js"></script>
 </body>
+
 </html>
